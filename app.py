@@ -59,4 +59,5 @@ trends.register_callbacks(app)  # Register the callback for graph updates
 
 # Run the app
 if __name__ == "__main__":
-    app.run_server(debug=True)
+    app.run(host="0.0.0.0", port=8080, debug=True)
+
